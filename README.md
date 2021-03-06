@@ -11,10 +11,10 @@ Program input <HR>
   5. the width and height of the clipping window on the near plane.
   <br />
   Queries and their inputs <HR>
-    1. What is the Zv vector? no additional parameters required. 
-    2. What is the Yv vector? no additional parameters required.
-    3. what are the 8 corners of the frustum in vc? no additional parameters required. outputs in the order front then back in counter clockwise, starting in the     bottom left corner.
-    4. Given p1 in WC what is it in VC? requires an additional 3 parameters of 3 doubles as the point.
-    5. Given p2 in WC what is it in VC? requires an additional 3 parameters of 3 doubles as the point.
-    6. Given p1 in WC what is it in NDC? requires an additional 3 parameters of 3 doubles as the point.
-    7. Draw a given triangle in a given viewport. requires an additional 11 parameter. 3 points of 3 doubles each and 2 ints.
+  1. What is the Zv vector? no additional parameters required. <br />
+  2. What is the Yv vector? no additional parameters required.<br />
+  3. what are the 8 corners of the frustum in vc? no additional parameters required. outputs in the order front then back in counter clockwise, starting in the     bottom left corner.<br />
+  4. Given p1 in WC what is it in VC? requires an additional 3 parameters of 3 doubles as the point.<br />
+  5. Given p2 in WC what is it in VC? requires an additional 3 parameters of 3 doubles as the point.<br />
+  6. Given p1 in WC what is it in NDC? requires an additional 3 parameters of 3 doubles as the point.<br />
+  7. Draw a given triangle in a given viewport. requires an additional 11 parameter. 3 points of 3 doubles each and 2 ints.<br />
